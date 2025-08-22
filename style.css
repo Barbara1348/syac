@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Soyuz Grotesk';
+    src: local('Soyuz Grotesk H Regular'), local('Soyuz-Grotesk-H-Regular'),
+        url('/assets/fonts/SoyuzGroteskBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Soyuz Grotesk';
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 70%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 90px;
+    gap: 50px;
+    background-image: url(/assets/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+iframe {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
