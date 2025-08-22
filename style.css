@@ -27,7 +27,7 @@ body {
     align-items: center;
     padding: 50px 90px;
     gap: 50px;
-    background-image: url(../assets/images/background.png);
+    background-image: url(./assets/images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
